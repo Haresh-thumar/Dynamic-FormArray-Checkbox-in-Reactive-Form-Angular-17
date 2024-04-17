@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'rxjs-Angular-17' title`, () => {
+  it(`should have the 'Dynamic-FormArray-Checkbox-in-Reactive-Form-Angular-17' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('rxjs-Angular-17');
+    expect(app.title).toEqual('Dynamic-FormArray-Checkbox-in-Reactive-Form-Angular-17');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, rxjs-Angular-17');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Dynamic-FormArray-Checkbox-in-Reactive-Form-Angular-17');
   });
 });
